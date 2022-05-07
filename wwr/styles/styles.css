@@ -1,4 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color:rgb(14, 127, 175, .7);
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+nav a {
+    color: #fff;
+}
+nav a:hover {
+    color:#6BB385;
+}
+.home-title{
+    color: #6BB385;
+}
+h4 {
+    color:#DE680E;
+}
+.book {
+    background-color:#DE680E;
+    color: #000;
+}
+
+.book:hover {
+    background-color:#6BB385;
+    color: #fff;
+}
+
+.join {
+    background-color: #DE680E;
+    color: #fff;
+}
+
+.join:hover {
+    background-color: #6BB385;
+    color: #000;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 footer {
     border:1px solid;
     margin: 0 auto;
+    background-color:#0e7faf;
+}
+
+footer h3 {
+    color: #000;
+}
+
+footer a {
+    color: #000;
+}
+footer a:hover {
+    color:#DE680E;
+}
+nav a {
+    text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+.msg {
+    background-color: #fff;
+}
+
+.msg  h2 {
+    color: #000;
+}
+
+.msg p {
+    color:#000;
+}
+
+#background {
+    height: 725px;
+    background-color: #DE680E;
 }

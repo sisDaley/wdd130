@@ -1,0 +1,50 @@
+body {
+    background-color: #FCA6C9;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    border: solid green 2px;
+}
+.center {
+    color: #fff;
+}
+
+.center h1 {
+    font-weight: bolder;
+}
+
+.center p {
+    font-size: small;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img {
+    width: 30%;
+    text-align: center;
+}
+
+ol{
+text-align: left;
+color: #000;
+font-weight: bolder;
+width: 50%;
+margin: 0 auto;
+padding-bottom: 2em;
+}
+
+.bigWhite {
+    color: #fff;
+    font-weight: 100;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+footer {
+    font-size: small;
+    width: 30%;
+    margin: 0 auto;
+}
