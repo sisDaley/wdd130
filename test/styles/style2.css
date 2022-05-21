@@ -60,6 +60,7 @@ footer {
     grid-template-columns: 50% 50%;
     border: 1px solid green;
     background: #B9B8B9;
+    width: 800px
 }
 
 .cherry {
@@ -83,6 +84,7 @@ footer {
 #w06 p {
     grid-column:2/3;
     font-size: 50px;
-    letter-spacing: .3em;
+    letter-spacing: .2em;
     color: #781F24;
+    font-weight: 900;
 }
