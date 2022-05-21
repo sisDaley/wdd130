@@ -3,3 +3,35 @@ footer {
     border:1px solid;
     margin: 0 auto;
 }
+
+
+/* Activity 2 styles */ 
+.content2 {
+    /* This is the parent of the activity 2 boxes. */
+  }
+  .red2 {
+    width: 100px; 
+    height: 100px; 
+    background-color: red; 
+  } 
+  .green2 { 
+    width: 100px; 
+    height: 100px; 
+    background-color: green; 
+    margin-top: -50px;
+    margin-left: 50px;
+  } 
+  .yellow2 {
+    width: 100px; 
+    height: 100px; 
+    background-color: gold; 
+    margin-top: -50px;
+    margin-left: 100px;
+  } 
+  .blue2 {
+    width: 100px; 
+    height: 100px; 
+    background-color: blue; 
+    margin-top: -50px;
+    margin-left: 150px;
+  } 
