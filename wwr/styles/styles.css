@@ -36,6 +36,7 @@ nav a {
 }
 nav a:hover {
     color:#6BB385;
+    background-color: #fff;
 }
 .home-title{
     color: #6BB385;
