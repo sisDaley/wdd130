@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    background-color: #000;
+}
+.card {
+    font-family: "Roboto Slab";
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: #8F848F;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #000;
+    font-weight: bold;
+}
+
+.img {
+    border-radius: 10px 10px 0 0;
+    border-color: #000;
+}
+
+.blue {
+    color:#3F5B8B;
+    font-size: small;
+    font-weight: 700;
+}
+
+.bodyText {
+    padding: 20px 30px;
+    font-weight: 400;
+}
+
+.bottom {
+    background-color: #3F5B8B;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    max-width: 100%;
+    border-radius: 0 0 10px 10px;
+    line-height: .2em;
+    border: 1px solid #3F5B8B;
+}
+
+.bottom div {
+    border-left: .3px solid gainsboro;
+    padding: 10px 0;
+}
+
+.bottom .leftBottom {
+    border-left: none;
+}
+
+.number {
+    font-size: larger;
+}
+
+.desc {
+    text-transform: uppercase;
+    font-size:x-small;
+}

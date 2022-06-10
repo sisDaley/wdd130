@@ -13,7 +13,7 @@ h1,h2,h3,h4 {
     margin: 0;
 }
 header {
-    background-color:rgb(14, 127, 175, .7);
+    background-color:rgba(14, 127, 175, 0.7);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -33,6 +33,13 @@ header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+}
+
+#hero-msg2 {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 100px 0;
 }
 
 #hero-box {
@@ -107,7 +114,7 @@ h4 {
     max-width: 1600px;
     margin: 0 auto;
 }
-footer {
+footer, footer .rivers {
     border:1px solid;
     margin: 0 auto;
     padding: 25px 50px;
@@ -211,7 +218,39 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.rivers-grid {
+    padding: 2em;
+}
 
+.rivers-right, .rivers-left {
+    margin-bottom: 100px;
+}
+
+.rivers-right {
+    background-color:#DE680F;
+    padding: 20px;
+}
+
+.rivers-grid img {
+    max-width: 400px;
+    border: 5px solid #6f7364;
+    box-shadow: 10px 10px 20px 1px rgb(111, 115, 100, 0.5);
+    margin-bottom: 20px;
+}
+
+.rivers-left img {
+    float: left;
+    margin-right: 2em;
+}
+
+.rivers-right img {
+    float: right;
+    margin-left: 2em;
+}
+
+footer.rivers {
+    margin-top: 0px
+}
 
 
 @media screen and (max-width: 900px) {
