@@ -154,6 +154,7 @@ footer .social img {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, minmax(0, 1fr));
+
 }
 
 main section {
@@ -227,8 +228,9 @@ main section img {
 }
 
 .rivers-right {
-    background-color:#DE680F;
-    padding: 20px;
+    border-bottom: 5px double #DE680e;
+    border-top: 5px double #DE680e;
+    padding: 40px 20px;
 }
 
 .rivers-grid img {
