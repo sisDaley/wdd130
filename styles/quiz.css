@@ -1,0 +1,45 @@
+main {
+    margin: 0 auto;
+    background-color:#b6ad90;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10rem;
+    padding: 2rem;
+    border: 2px solid #656d4a;
+    border-radius: 10px;
+}
+
+fieldset {
+    padding: 2rem;
+}
+
+main  {
+
+}
+
+main label {
+    font-weight: bold;
+    margin: 1rem 0rem .5rem 0rem;
+
+}
+
+main input, main select, main textarea {
+    width: 320px;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+main textarea {
+    height: 4rem;
+}
+
+button {
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    background-color: #656d4a;
+    border-radius: 10px;
+    color: #fff;
+}
