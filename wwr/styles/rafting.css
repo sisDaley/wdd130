@@ -325,27 +325,47 @@ textarea::placeholder {
     left: 380px;
 }
 
-table {
-    margin-top: 3rem;
-}
-table, td, th {
-    border: 1px solid #e68f26;
+
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
 }
 
-table img {
+.trips img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.trips button {
+    margin-top: 1rem;
+}
+
+table {
+    margin-top: 2rem;
+    padding: 20px;
+    font-size: small;
+    width: 80%; 
+}
+td, th {
+    border: 1px solid #e68f26;
+    padding: 10px;
     width: 200px;
-    display: block;
-    margin: 0 auto;
+}
+
+th {
+    font-weight: bold;
+    font-size: large;
 }
 
 td {
-    padding: 20px;
+    text-align: center;
+    line-height: 1rem;
+    padding: 1rem;
 }
 
-table .fees {
-    text-align: center;
-    line-height: 2rem;
-}
 /* FOOTER */
 
 footer {
