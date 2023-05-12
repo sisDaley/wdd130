@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Condensed&display=swap');
 :root {
-    --primary-color:var(--primary-color) #2F52E0;
-    --secondary-color:var(--secondary-color) #FF715B;
-    --accent1-color:var(--accent1-color) #F9CB40;
-    --accent2-color:var(--accent2-color) #BCED09;
+    --primary-color:#064e8d;
+    --secondary-color: #a4600d;
+    --accent1-color: #fff;
+    --accent2-color: #000000;
 
     --heading-font: 'raleway', serif;
     --paragraph-font: 'roboto condensed', serif;
