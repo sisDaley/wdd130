@@ -350,7 +350,7 @@ table {
     width: 80%; 
 }
 td, th {
-    border: 1px solid #e68f26;
+    border: 1px solid hsl(33, 79%, 53%);
     padding: 10px;
     width: 200px;
 }
