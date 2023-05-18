@@ -1,4 +1,105 @@
+/* W03: At the top of the document, create a CSS rule for the universal selector (wildcard) that contains three declarations  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+  .grid{
+    display: grid;
+    align-items: center;
+  
+  }
+  nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  h1 {
+    color: steelblue;
+    border-bottom: 1px solid steelblue;
+    padding: 0.5rem;
+  }
+  
+  /* W03: Use CSS to float your profile image to the right. The paragraph should come right after the picture. You may need to add more content if you have not introduced yourself enough for this to look decent  */
+  main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  p {
+    padding: 1.5rem;
+    
+  }
+  main {
+    max-width: 740px;
+    grid-column: 2/3;
+    margin: 1rem;
+  }
+  aside {
+    /* margin: 1em; */
+    /* border: 1px solid rgba(0, 0, 0, 0.2); 1 */
+    /* padding: 1em; */
+    /* background-color: #eee; */
+    /* color: #333; */
+    text-align: center;
+    width: 20em;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  aside img {
+    width: 200px;
+    height: auto; 
+    
+  }
+  aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 90px;
+  }
+  
+  footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+  }
+  
+  /* Class Selectors */
+  .box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: aliceblue;
+    color:#000;
+  }
 
+
+/* 
 * {
     margin: 0;
     padding: 0;
@@ -94,3 +195,4 @@ footer {
     color: #000;
 }
 
+ */
