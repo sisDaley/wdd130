@@ -47,7 +47,7 @@ header {
 
 nav {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     font-family: var(--heading-font);
     text-transform: uppercase;
@@ -364,6 +364,24 @@ td {
     text-align: center;
     line-height: 1rem;
     padding: 1rem;
+}
+
+/*TRIPS 2 */
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.two img {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.three {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
 /* FOOTER */
