@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
 
 :root{
     --primary-color: #064e8d;
@@ -6,8 +6,8 @@
     --accent1-color: #fff;
     --accent2-color: #000000;
 
-    --heading-font: Ubuntu, serif;
-    --paragraph-font: Raleway, serif;
+    --heading-font: 'Josefin Sans', serif;
+    --paragraph-font: Roboto, serif;
 
     --nav-background-color: #fff;
     --nav-link-color: #064e8d;
