@@ -48,7 +48,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--heading-font);
     text-transform: uppercase;
     font-size: larger;
 }
@@ -56,6 +55,7 @@ nav {
 nav a {
     background-color: var(--accent1-color);
     padding: 1rem 3rem;
+    font-family: var(--heading-font);
 }
 
 nav a:hover {
