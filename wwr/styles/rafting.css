@@ -4,8 +4,8 @@
     --accent1-color: #fff;
     --accent2-color: #000000;
 
-    --heading-font: 'raleway', serif;
-    --paragraph-font: 'roboto condensed', serif;
+    --heading-font: Raleway, serif;
+    --paragraph-font: 'Roboto Condensed', serif;
 
     --nav-background-color: #fff;
     --nav-link-color: #064e8d;
@@ -282,7 +282,7 @@ textarea::placeholder {
     border: none;
     margin: 2rem 0;
   }
-  
+
 .contact button {
     width: 100%;
     margin: 20px 0
@@ -317,14 +317,19 @@ textarea::placeholder {
     overflow: hidden;
 }
 
-.main-trips .hero button {
+.main-trips .hero a.cta {
     position: absolute;
     top: 200px;
     display: block;
     left: 380px;
 }
 
-
+a.cta {
+    padding: 10px;
+    background-color:#e68f26;
+    border: 1px solid #e68f26;
+    border-radius: 10px;
+}
 
 .trips {
     display: grid;
@@ -338,15 +343,16 @@ textarea::placeholder {
     text-align: center;
 }
 
-.trips button {
-    margin-top: 1rem;
+.trips p {
+    margin: 20px;
 }
+
 
 table {
     margin-top: 2rem;
     padding: 20px;
     font-size: small;
-    width: 80%; 
+    width: 80%;
 }
 td, th {
     border: 1px solid hsl(33, 79%, 53%);
