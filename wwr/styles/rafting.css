@@ -3,6 +3,7 @@
     --secondary-color: #a4600d;
     --accent1-color: #fff;
     --accent2-color: #000000;
+    --accent3-color: #faf4ed;
 
     --heading-font: Raleway, serif;
     --paragraph-font: 'Roboto Condensed', serif;
@@ -13,6 +14,7 @@
     --nav-hover-background-color: rgba(6, 78, 141, .8);
 }
 
+/** Universal Selectors **/
 *{
     margin: 0;
     padding: 0;
@@ -65,48 +67,6 @@ header img {
     width: 150px;
 }
 
-.hero, .hero-home{
-    position: relative;
-}
-
-.hero-home {
-    width: 100%;
-}
-
-
-
-.hero h1, .hero-home h1 {
-    position: absolute;
-    top: 1rem;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: #fff;
-    background-color: rgba(12, 12, 12, 0.5);
-    padding: 1rem;
-}
-
-.hero article, .hero-home article{
-    position: absolute;
-    top: 8rem;
-    background-color: rgba(6, 78, 141, .6);
-    color: #fff;
-    padding: 1rem;
-    max-width: 80%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-
-.hero-home article {
-    text-align: center;
-}
-
-.hero-home h2, .home-newsletter h2 {
-    color: #fff;
-    font-size: 3rem;
-}
-
 button {
     padding: 1rem;
     background-color:#e68f26;
@@ -124,6 +84,52 @@ button:hover, button:hover a {
 
 .block {
     display: block;
+}
+
+/** Hero **/
+
+.hero, .hero-home{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+.hero-home {
+    width: 100%;
+    padding: 0 0 1rem 0;
+    height: 600px;
+}
+
+.hero h1, .hero-home h1 {
+    position: absolute;
+    top: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(12, 12, 12, 0.5);
+    padding: 1rem;
+    width: 100%;
+}
+
+.hero article, .hero-home article{
+    position: absolute;
+    top: 40%;
+    background-color: rgba(6, 78, 141, .6);
+    color: #fff;
+    padding: 1rem;
+    max-width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.hero-home article {
+    text-align: center;
+}
+
+.hero-home h2, .home-newsletter h2 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
 }
 
 .hero img, .hero-home img {
@@ -217,6 +223,8 @@ button:hover, button:hover a {
 .home-grid img {
     width: 400px;
     height: auto;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .home-grid p {
@@ -236,14 +244,13 @@ button:hover, button:hover a {
     margin: 0 0 1rem 0;
 }
 
-.contact {
-    padding: 0 20px;
-}
-
 .contact{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact aside {
+    padding: 2rem;
 }
 
 input[type="radio"] {
@@ -293,7 +300,10 @@ textarea::placeholder {
     text-align: center;
 }
 
-
+.contact-form {
+    background-color: var(--accent3-color);
+    padding: 2rem;
+}
 
 .contact-employees div {
     display: flex;
@@ -307,7 +317,7 @@ textarea::placeholder {
 }
 
 .contact-employees img {
-    width: 100%;
+    width: 80%;
 }
 
 /* TRIPS */
@@ -319,9 +329,11 @@ textarea::placeholder {
 
 .main-trips .hero a.cta {
     position: absolute;
-    top: 200px;
-    display: block;
-    left: 380px;
+    top: 60%;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 a.cta {
@@ -390,7 +402,7 @@ td {
 }
 
 .fees {
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 /* FOOTER */
