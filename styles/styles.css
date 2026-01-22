@@ -27,20 +27,22 @@ h1 {
     color: darkblue;
 }
 
-h2 {
-    position: absolute;
-    top: 30px;
-    left: 100px;
-}
-
 main {
-    max-width: 700px;
+    max-width: 840px;
 }
 
 aside {
     width: 20rem;
+    border: 2px solid darkblue;
     text-align: center;
     position: relative;
+    color: #000;
+}
+
+h2 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
 }
 
 aside img {
@@ -62,8 +64,8 @@ p {
 }
 
 footer {
-    margin-top: 1rem;
-    border-top: 1rem;
+    margin-top: 3rem;
+    border-top: 2px solid #000;
     text-align: center;
 }
 
